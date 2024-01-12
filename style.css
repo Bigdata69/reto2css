@@ -1,0 +1,32 @@
+/*Estilos Generales*/
+*{   
+margin : 0;
+padding : 0;} 
+
+header{
+  border-style: dotted;padding-left: 20px;
+  position: fixed;z-index:1;background-color: black;height: 80px;width:2000px
+  ;
+}
+main {position:relative;padding-top: 200px;}
+body {background-color:black ; font-family: roboto; 
+    color:#8fdf8fe0 ;height:auto;}
+
+  section.content { margin-top:10px; 
+    border-style: dotted; 
+    text-align: left; padding: 20px;position: relative;}
+  /* h2 este es el segundo titulo */
+  aside.sidebar{border-style: dotted;
+position: relative;left:80%;width: 150px;
+align-content:center; font-size:19px;
+    height: 180px;padding:60px;
+margin:30px; border-style: dotted;}
+
+section.features
+{position:relative;padding: 50px;
+    border-style: dotted; text-align: center;}
+    button {border-radius: 10px;color: red; width: 60px;}
+span{ size: 50px;}
+footer {margin-top: 200px;position:sticky; text-align: center;padding : 25px;
+   border-style: dotted ;}
+
